@@ -10,7 +10,7 @@ public class Main {
         Map<Integer, Integer> convert = new HashMap<>();
         for (int value : values) {
             if (convert.containsKey(value)) {
-                convert.put(value, convert.get(value) +1);
+                convert.put(value, convert.get(value) + 1);
             } else {
                 convert.put(value, 1);
             }
@@ -29,7 +29,7 @@ public class Main {
             array[i] = scanner.nextInt();
             counter++;
         }
-            countingValues(array);
+        countingValues(array);
 
     }
 
